@@ -1,0 +1,42 @@
+.main{
+    display:flex;
+    position:fixed;
+    margin-left:30px;
+    width:250px;
+    height:150px;
+    padding:10px;
+}
+.container{
+    display:flex;
+    position:relative;
+    flex-direction: row;
+    width:250px;
+    height:180px;
+    border:1px ridge blue;
+    }
+.static-element{
+    width:250px;
+    height:180px;
+}
+.relative-element{
+    width: 250px;
+    height:180px;
+    position:relative;
+    top:80px;
+    left:30px;
+}
+.absolute-element{
+    position: absolute;
+    top:100px;
+    left:30px;
+    width:250px;
+    height:180px;
+    
+}
+.fixed-element{
+    width:250px;
+    height:180px;
+    position:fixed;
+    top:20px;
+    left:30px;
+}
